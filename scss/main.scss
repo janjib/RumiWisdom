@@ -1,0 +1,58 @@
+@import "partial";
+body {
+  background-color: $primary-color;
+  font-family: "Skranji", cursive;
+}
+.hero-title {
+  margin-top: 7.875rem;
+  text-align: left;
+  position: relative;
+  left: 8rem;
+}
+.col-title {
+  color: $secondary-color;
+  font-size: 5rem;
+}
+
+.img-rumi {
+  position: relative;
+  margin-right: 2rem;
+}
+.hero {
+  height: 100vh;
+}
+
+.get-another-quote-button,
+.anchor-button,
+.get-quote-button {
+  border-radius: 2.25rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: $secondary-color;
+  background-color: $fourth-color;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  &:hover {
+    color: $fourth-color;
+    background-color: $secondary-color;
+  }
+  &:active {
+    color: $secondary-color;
+    background-color: $fourth-color;
+  }
+}
+
+.highlighted-background {
+  background-color: $tertiary-color;
+}
+.quote-section {
+  height: 80vh;
+}
+.quote-div {
+  height: 50vh;
+}
+.quote-words {
+  color: #00473e;
+  font-size: 4rem;
+}
