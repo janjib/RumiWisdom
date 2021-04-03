@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f7f5;
+  font-family: "Skranji", cursive;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.hero-title h1 {
+  font-size: 3.5rem;
+}
+
+.get-another-quote-button,
+.anchor-button,
+.get-quote-button {
+  border-radius: 2.25rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #00473e;
+  background-color: #faae2b;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.get-another-quote-button:hover,
+.anchor-button:hover,
+.get-quote-button:hover {
+  color: #faae2b;
+  background-color: #00473e;
+}
+
+.get-another-quote-button:active,
+.anchor-button:active,
+.get-quote-button:active {
+  color: #00473e;
+  background-color: #faae2b;
+}
+
+.highlighted-background {
+  background-color: #ffa8ba;
+}
+
+.quote-section {
+  height: 80vh;
+}
+
+.quote-div {
+  height: 50vh;
+}
+
+.quote-words {
+  color: #00473e;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=main.css.map */
